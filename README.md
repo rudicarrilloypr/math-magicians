@@ -1,3 +1,7 @@
+<div align="center">
+   <img src="./assets/rc-softdev-banner-doodles.PNG" alt="Rudi Carrillo logo" height="auto" />
+  <br/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
