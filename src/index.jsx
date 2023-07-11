@@ -6,7 +6,7 @@ import './index.css';
 // eslint-disable-next-line import/extensions, no-unused-vars
 import App from './App';
 // eslint-disable-next-line import/extensions
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './reportWebVitals.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
