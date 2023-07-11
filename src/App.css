@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Esto hace que el contenedor de la aplicación ocupe toda la altura de la vista */
+  background-color: #fff; /* O el color que prefieras para el fondo */
 }
 
 .App-logo {
