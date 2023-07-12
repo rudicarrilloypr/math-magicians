@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-   <img src="./assets/rc-softdev-banner-doodles.PNG" alt="Rudi Carrillo logo" height="auto" />
+   <img src="./assets/rc-softdev-banner-doodles-soft.PNG" alt="Rudi Carrillo logo" height="auto" />
   <br/>
 
   <h3><b> Math Magicians </b></h3>
@@ -34,7 +34,7 @@
 
 # 📖  Math Magicians <a name="about-project"></a>
 
-**Math Magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.
+**Math Magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations.
 
 ## 🛠 Built With <a name="built-with"></a>
 - React APP
