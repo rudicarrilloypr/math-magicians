@@ -40,7 +40,7 @@ export default function calculate(obj, buttonName) {
 
   if (buttonName === '.') {
     if (obj.next) {
-      if (obj.next.includes('.')) {
+      if (obj.next.toString().includes('.')) {
         return { ...obj };
       }
       return { ...obj, next: `${obj.next}.` };
