@@ -1,0 +1,17 @@
+.quote-container {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto 2em;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
+}
+
+.quote-text {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.quote-author {
+  font-size: 1em;
+  font-weight: bold;
+}
