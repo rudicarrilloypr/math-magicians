@@ -17,15 +17,13 @@ function Quote() {
         throw response;
       })
       .then((data) => {
-        setQuoteData(data[0]); // We only need the first quote
+        setQuoteData(data[0]);
         setLoading(false);
       })
       .catch((error) => {
-        // eslint-disable-next-line no-console
-        console.error('Error fetching data: ', error);
         setError(error);
       });
-  }, []); // Empty dependency array means this effect runs once on mount
+  }, []);
 
   if (loading) return 'Loading...';
   if (error) return 'Error!';
