@@ -16,6 +16,7 @@
 - [🛠 Built With ](#-built-with-)
    - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+- [🚀 Live Demo](#live-demo)
   - [💻 Getting Started ](#-getting-started-)
    - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -65,8 +66,16 @@
 
 ### Key Features <a name="key-features"></a>
 - [X] **Use of React to setup de project.**
-- [X] **Recieve API quotes pm Quote section.**
+- [X] **Recieve API quotes into Quote section.**
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+[Click here](https://magos-matematicos.netlify.app/) to see the project's deployment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,9 +171,9 @@ If you like this project, please consider supporting us! Your support helps us t
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
+<!-- FAQ -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 - **How do I set up the project?**
 
   - Clone the repository from GitHub, and see the [Setup](#setup) section above for details.
