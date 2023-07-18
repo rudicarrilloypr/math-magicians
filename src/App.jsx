@@ -15,7 +15,7 @@ function App() {
         <nav>
           <h1>Math Magicians</h1>
           <ul>
-            <li><Link to="/home">Home</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/calculator">Calculator</Link></li>
             <li><Link to="/quote">Quote</Link></li>
           </ul>
@@ -23,7 +23,7 @@ function App() {
 
         <main>
           <Routes>
-            <Route path="/home" element={<Home />} />
+            <Route path="/*" element={<Home />} />
             <Route path="/calculator" element={<Calculator />} />
             <Route path="/quote" element={<Quote />} />
           </Routes>
