@@ -141,8 +141,8 @@ To run tests, run the following command:
 <!--- Future Features ---->
 
 ## <a href="#future-features"></a>🔮 Future Features
-- Mobile Version style
-- Live Demo
+- style updates
+- tests
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
