@@ -23,12 +23,12 @@
     - [Install](#install)
     - [Usage](#usage)
     - [Run tests](#run-tests)
-  - [👥 Authors ](#-authors-)
-  - [🔮 Future Features](#-future-features)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
-  - [📝 License ](#-license-)
+- [👥 Authors ](#-authors-)
+- [🔮 Future Features](#-future-features)
+- [🤝 Contributing ](#-contributing-)
+- [⭐️ Show your support ](#️-show-your-support-)
+- [❓ FAQ (OPTIONAL) ](#-faq-optional-)
+- [📝 License ](#-license-)
 
 
 <!-- PROJECT DESCRIPTION -->
