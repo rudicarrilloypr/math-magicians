@@ -65,6 +65,7 @@
 
 ### Key Features <a name="key-features"></a>
 - [X] **Use of React to setup de project.**
+- [X] **Recieve API quotes pm Quote section.**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -84,7 +85,7 @@ Before you proceed, ensure that you have the following installed on your machine
 Clone this repository to your desired folder:
 
 ```sh
-  git clone git@github.com:rudicarrilloypr/fortnite-api.git
+  git clone git@github.com:rudicarrilloypr/math-magicians.git
 ```
 
 ### Install
@@ -131,7 +132,8 @@ To run tests, run the following command:
 <!--- Future Features ---->
 
 ## <a href="#future-features"></a>🔮 Future Features
-- Style adapted to develop the calculator app
+- Mobile Version style
+- Live Demo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
