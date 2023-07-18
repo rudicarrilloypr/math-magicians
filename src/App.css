@@ -52,6 +52,10 @@ main {
   color: #333;
 }
 
+main h2 {
+  text-align: center;
+}
+
 .quote-container {
   text-align: center;
   max-width: 800px;

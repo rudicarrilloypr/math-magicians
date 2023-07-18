@@ -22,7 +22,7 @@
   width: 0;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 4s steps(40, end) forwards; /* 4s es la duración de la animación, y 40 es el número de "pasos" o caracteres en la animación. */
+  animation: typing 5s steps(40, end) forwards; /* s es la duración de la animación, y 40 es el número de "pasos" o caracteres en la animación. */
 }
 
 .result {
