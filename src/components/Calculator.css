@@ -4,7 +4,7 @@
   gap: 1px;
   width: 200px;
   margin: auto;
-  margin-left: 390px;
+  margin-right: auto;
 }
 
 @keyframes typing {
@@ -22,7 +22,7 @@
   width: 0;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 4s steps(40, end) forwards; /* 4s es la duración de la animación, y 40 es el número de "pasos" o caracteres en la animación. Ajusta estos valores a tu gusto. */
+  animation: typing 4s steps(40, end) forwards; /* 4s es la duración de la animación, y 40 es el número de "pasos" o caracteres en la animación. */
 }
 
 .result {
