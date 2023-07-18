@@ -9,6 +9,15 @@
 .quote-text {
   font-size: 1em;
   line-height: 1.4;
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+  animation: fadeIn 2s 1 forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 .quote-author {

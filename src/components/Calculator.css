@@ -4,6 +4,25 @@
   gap: 1px;
   width: 200px;
   margin: auto;
+  margin-left: 390px;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.title {
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 1em;
+  margin-top: -250px;
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(40, end) forwards; /* 4s es la duración de la animación, y 40 es el número de "pasos" o caracteres en la animación. Ajusta estos valores a tu gusto. */
 }
 
 .result {

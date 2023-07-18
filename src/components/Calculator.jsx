@@ -19,12 +19,17 @@ function Calculator() {
   const display = (total || '') + (operation || '') + (next || '');
 
   return (
-    <div className="calculator">
-      <div className="result">{display || '0'}</div>
-      {buttons.map((buttonValue) => (
-        <Button key={buttonValue} value={buttonValue} handleClick={handleClick} />
-      ))}
-    </div>
+    <>
+      <div className="title">
+        <h2>Let&apos;s do some math!</h2>
+      </div>
+      <div className="calculator">
+        <div className="result">{display || '0'}</div>
+        {buttons.map((buttonValue) => (
+          <Button key={buttonValue} value={buttonValue} handleClick={handleClick} />
+        ))}
+      </div>
+    </>
   );
 }
 
