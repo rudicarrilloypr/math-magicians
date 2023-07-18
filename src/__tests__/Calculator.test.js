@@ -9,24 +9,28 @@ describe('Calculator', () => {
   });
 
   it('updates display when a number button is clicked', () => {
-    render(<Calculator />);
+    const { container } = render(<Calculator />);
     fireEvent.click(screen.getByRole('button', { name: /1/i }));
-    expect(screen.getByText('1')).toBeInTheDocument();
+    const display = container.querySelector('.result');
+    expect(display.textContent).toBe('1');
   });
 
   it('performs an operation when an operation button is clicked', () => {
-    render(<Calculator />);
+    const { container } = render(<Calculator />);
     fireEvent.click(screen.getByRole('button', { name: /1/i }));
-    fireEvent.click(screen.getByRole('button', { name: /\+/i }));
+    const plusOperationButton = screen.getByRole('button', { name: '+' });
+    fireEvent.click(plusOperationButton);
     fireEvent.click(screen.getByRole('button', { name: /2/i }));
     fireEvent.click(screen.getByRole('button', { name: /=/i }));
-    expect(screen.getByText('3')).toBeInTheDocument();
+    const display = container.querySelector('.result');
+    expect(display.textContent).toBe('3');
   });
 
   it('clears the display when the AC button is clicked', () => {
-    render(<Calculator />);
+    const { container } = render(<Calculator />);
     fireEvent.click(screen.getByRole('button', { name: /1/i }));
     fireEvent.click(screen.getByRole('button', { name: /AC/i }));
-    expect(screen.getByText('0')).toBeInTheDocument();
+    const display = container.querySelector('.result');
+    expect(display.textContent).toBe('0');
   });
 });
