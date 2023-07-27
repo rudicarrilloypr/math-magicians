@@ -54,6 +54,11 @@ main {
 
 main h2 {
   text-align: center;
+  margin-top: -65px;
+}
+
+p {
+  text-align: center;
 }
 
 .quote-container {
